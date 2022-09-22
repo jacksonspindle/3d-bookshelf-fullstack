@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+} 
+ 
+body {
+    background-color: dodgerblue;
+}
+
+.canvas {
+    height: 99vh;
+    z-index: 0;
+}
+
+.description-text{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add-book-popup{
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-radius: 2rem;
+    /* font-size: 100px; */
+    overflow-y: auto;
+    
+}
+
+.add-book-popup-button{
+    font-size: 100px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.add-book-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4rem;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.add-book-form > input {
+    height: 50px;
+    margin: 2rem;
+    width: 200px;
+}
